@@ -1,1 +1,0 @@
-dayToWord(5);
