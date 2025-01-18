@@ -1,8 +1,8 @@
 #include "wifiSetup.h"
 #include <Arduino.h>
 
-const char *WIFI_SSID = "kalrav";
-const char *WIFI_PASS = "9634593284";
+const char *WIFI_SSID = "YOUR_SSID";
+const char *WIFI_PASS = "YOUR_PASSWORD";
 
 void connectToWiFi()
 {
