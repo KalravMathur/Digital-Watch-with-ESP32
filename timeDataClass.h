@@ -3,14 +3,13 @@
 
 #include <Arduino.h>
 
-class timeDateApi
+class timeDataApi
 {
 private:
     struct time
     {
         int hours;
         int mins;
-        int secs;
     };
     struct date
     {
@@ -25,6 +24,8 @@ public:
     time t1, t2;
     date d1, d2;
     void updateTimeInfo();
+    void stopWatchInterface();
+    void timerInterface();
 };
 
 #endif // TIMEDATACLASS_H
